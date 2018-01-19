@@ -45,7 +45,10 @@ div#wall div.parent div + div:last-child div#tag-6 {
 }
 
 /**
-
+this selects a div with an ID of wall,
+then selects a div with a class of parent,
+then selects a div which is the first child of the div above and this div is also the parent of another div with the ID of tag-7 
+the element with the ID of tag-7 also has a class of .slick
 **/
 
 body div#wall div.parent div:first-child > #tag-7.slick {

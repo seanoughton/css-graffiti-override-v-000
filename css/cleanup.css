@@ -34,10 +34,11 @@ div#wall .parent + .parent #tag-5.slick {
 }
 
 /**
-
+this selects a div with an ID of Wall,
+then selects a div with a class of parent,
+then selects a div that is both the last-child and also the sibling of another div,
+then selects a div with an ID of tag-6
 **/
-
-
 
 div#wall div.parent div + div:last-child div#tag-6 {
   display: none;

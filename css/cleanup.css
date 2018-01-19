@@ -16,6 +16,10 @@ div#wall #tag-3.slick.wicked{
   display: none;
 }
 
+/** This selects an elment with the id of wall,
+then selects the descendent of that element with the class of parent,
+then selects the descendent of that element with the id of tag-4 **/
+
 #wall .parent #tag-4 {
   display: none;
 }

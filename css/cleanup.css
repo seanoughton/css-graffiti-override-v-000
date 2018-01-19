@@ -8,6 +8,10 @@
   display: none;
 }
 
+/** This selects a div with an ID of wall,
+that is the parent of an element with the id of tag-3
+that also has the class of slick
+that also has the class of wicked **/
 div#wall #tag-3.slick.wicked{
   display: none;
 }

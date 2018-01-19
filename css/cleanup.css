@@ -23,3 +23,7 @@ then selects the descendent of that element with the id of tag-4 **/
 #wall .parent #tag-4 {
   display: none;
 }
+
+div#wall .parent #tag-5.slick {
+  display: none;
+}
